@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>formatação de etxtos &#18278;</title>
+    <style>
+         mark {
+            background-color: rgb(53, 180, 138);
+         }
+        
+    </style>
+</head>
+<body>
+    <h1>principais formatações</h1>
+    <h2>negrito/destaque</h2>
+    <p>aqui vemos um texto <b>em negrito/bold</b> utilizando o comando B (não semântico)</p><p>
+        aqui vemos outro texto <strong>em negrito</strong> utilizando o comando strong (semântico)
+    </p>
+    <p>
+        aqui vemos um <i>texto em itálico</i> utilizando o i (não semântico)
+    </p> <p>
+        aqui vemos um <em>texto em itálico</em> com enfase (semantico)
+    </p>
+
+<!--LEMBRANDO QUE SEMÂNTICO É PARA FACILITAR A ACESSIBILIDADE PARA PCDS E ETC...-->
+
+<h2>texto marcado</h2>
+<p>para estacar marcando, utilizamos o <mark>mark</mark>, para mudar a cor do marca texto, utilizamos a mesma ideia do comando style que mudou o bg na head, porem, dentro do mark. ex <mark style="background-color: rgb(64, 202, 202)"> assim, mudei de amarelo p outra cor</mark></p>
+<!-- ESSE MARK ACIMA FOI MUDADO APENAS PARA ELE E NÃO PARA OS DMAIS, PARA MUDAR TODOS OS MARKS (exceto o mark que definimos especificamente), VAMOS NO HEAD(CONFIGURAÇÕES) E UTILIZAMOS O COMANDO STYLE, DEPOIS ESCREVEMOS MARK PARA ESPECIFICAR QUAL ESTILO QUEREMOS MUDAR E POR MIM, MUDAMOS A COR COM O COMANDO BACKGROUND-COLOR-->
+<p>teste de <mark>mark</mark> no comando geral(head)</p>
+
+<!--esse mark acima entrou na regra descrita no head-->
+<h2>texto deletado</h2>
+<p>esse texto é <del>deletado</del>coom o del</p>
+<h2>texto grande e pequeno</h2>
+<p>esse texto é <big>grande</big>(o comando big é obsoleto) e <small>pequeno</small></p>
+<h2>texto sub e superescrito</h2>
+esse texto com sub <sub>é para coisas abaixo</sub> de algo, e o <sup>sup é acima</sup> de algo
+<p></p>
+</body>
+
+</html>
